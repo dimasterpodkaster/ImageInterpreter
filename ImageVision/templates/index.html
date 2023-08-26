@@ -1,11 +1,11 @@
 {% extends "base.html" %}
-{% block title %}Форма для загрузки картинки{% endblock %}
+{% block title %}Форма для добавления информации{% endblock %}
 {% block content %}
 
 <div class="row justify-content-center">
     <div class="col-md-8 p-5">
         <div class="card">
-            <div class="card-header">Форма для загрузки картинки</div>
+            <div class="card-header">Форма для добавления информации</div>
             <div class="card-body">
 
                     {% for error in form.errors %}
@@ -32,7 +32,7 @@
 
                     <div class="col-md-6 offset-md-4">
                             <button type="submit" class="btn btn-primary">
-                                Отправить фотографию
+                                Отправить данные
                             </button>
                     </div>
                 </form>
